@@ -1,0 +1,177 @@
+/* General Style */
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  line-height: 1.6;
+
+  background: #f5f5f5;
+
+  color: #333;
+
+}
+
+/* Navigation */
+
+header {
+
+  background: #222;
+
+  padding: 10px 0;
+
+}
+
+nav ul {
+
+  display: flex;
+
+  justify-content: center;
+
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+nav ul li {
+
+  margin: 0 15px;
+
+}
+
+nav ul li a {
+
+  text-decoration: none;
+
+  color: #fff;
+
+  font-weight: bold;
+
+}
+
+nav ul li a:hover {
+
+  color: #00aced;
+
+}
+
+/* Sections */
+
+section {
+
+  padding: 40px;
+
+  margin: 20px;
+
+  background: #fff;
+
+  border-radius: 10px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+h1, h2 {
+
+  text-align: center;
+
+  color: #222;
+
+}
+
+p, ul {
+
+  max-width: 700px;
+
+  margin: auto;
+
+  font-size: 16px;
+
+}
+
+/* About Me Image */
+
+.profile-pic {
+
+  display: block;
+
+  margin: 20px auto;
+
+  width: 180px;
+
+  border-radius: 50%;
+
+  border: 3px solid #00aced;
+
+}
+
+/* Contact Form */
+
+form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  max-width: 500px;
+
+  margin: 20px auto;
+
+}
+
+form label {
+
+  margin: 10px 0 5px;
+
+}
+
+form input, form textarea {
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+form button {
+
+  margin-top: 15px;
+
+  padding: 10px;
+
+  background: #00aced;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+form button:hover {
+
+  background: #0077a3;
+
+}
+
+#formMessage {
+
+  text-align: center;
+
+  margin-top: 15px;
+
+  color: green;
+
+}
